@@ -24,7 +24,7 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::SAX::Machines
 Summary(zh_CN):	XML::SAX::Machines Perl Ä£¿é
 Name:		perl-XML-SAX-Machines
 Version:	0.4
-Release:	1
+Release:	2
 Epoch:		1
 License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
@@ -35,7 +35,7 @@ BuildRequires:	perl-XML-SAX >= 0.05
 BuildRequires:	perl(XML::SAX::Base) >= 1.02
 # doc say 0.4100001, so maybe too much, but safer
 BuildRequires:	perl-XML-SAX-Writer >= 0.42
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 %endif
 Requires:	perl-XML-SAX >= 0.05
 Requires:	perl(XML::SAX::Base) >= 1.02
@@ -56,7 +56,8 @@ z³o¿onych konstrukcji SAX bez du¿ej ilo¶ci nadmiarowego kodu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -73,7 +74,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc CHANGES README TODO
-%{perl_sitelib}/XML/Filter/*.pm
-%{perl_sitelib}/XML/SAX/*.pm
-%{perl_sitelib}/XML/SAX/Machines
+%{perl_vendorlib}/XML/Filter/*.pm
+%{perl_vendorlib}/XML/SAX/*.pm
+%{perl_vendorlib}/XML/SAX/Machines
 %{_mandir}/man3/*
