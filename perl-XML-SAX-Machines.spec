@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	SAX-Machines
+%define		pdir	XML
+%define		pnam	SAX-Machines
 Summary:	XML::SAX::Machines Perl module
 Summary(cs):	Modul XML::SAX::Machines pro Perl
 Summary(da):	Perlmodul XML::SAX::Machines
