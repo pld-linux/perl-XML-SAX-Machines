@@ -30,7 +30,7 @@ License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b91467e31690ce1a53c9d6895879ad21
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-XML-SAX >= 0.05
 BuildRequires:	perl(XML::SAX::Base) >= 1.02
