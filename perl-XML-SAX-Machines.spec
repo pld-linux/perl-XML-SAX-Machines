@@ -14,7 +14,7 @@ Summary(fr):	Module Perl XML::SAX::Machines
 Summary(it):	Modulo di Perl XML::SAX::Machines
 Summary(ja):	XML::SAX::Machines Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	XML::SAX::Machines ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul XML::SAX::Machines
+Summary(nb):	Perlmodul XML::SAX::Machines
 Summary(pl):	Modu³ Perla XML::SAX::Machines
 Summary(pt):	Módulo de Perl XML::SAX::Machines
 Summary(pt_BR):	Módulo Perl XML::SAX::Machines
