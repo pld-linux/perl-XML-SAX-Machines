@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl XML::SAX::Machines
 Summary(zh_CN):	XML::SAX::Machines Perl дё©И
 Name:		perl-XML-SAX-Machines
 Version:	0.4
-Release:	1
+Release:	2
 Epoch:		1
 License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
