@@ -56,7 +56,7 @@ z³o¿onych konstrukcji SAX bez du¿ej ilo¶ci nadmiarowego kodu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
