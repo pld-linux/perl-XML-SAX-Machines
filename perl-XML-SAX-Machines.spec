@@ -1,25 +1,46 @@
 #
 # Conditional build:
 # _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	SAX-Machines
 Summary:	XML::SAX::Machines Perl module
+Summary(cs):	Modul XML::SAX::Machines pro Perl
+Summary(da):	Perlmodul XML::SAX::Machines
+Summary(de):	XML::SAX::Machines Perl Modul
+Summary(es):	Módulo de Perl XML::SAX::Machines
+Summary(fr):	Module Perl XML::SAX::Machines
+Summary(it):	Modulo di Perl XML::SAX::Machines
+Summary(ja):	XML::SAX::Machines Perl ¥â¥¸¥å¡¼¥ë
+Summary(ko):	XML::SAX::Machines ÆÞ ¸ðÁÙ
+Summary(no):	Perlmodul XML::SAX::Machines
 Summary(pl):	Modu³ Perla XML::SAX::Machines
+Summary(pt):	Módulo de Perl XML::SAX::Machines
+Summary(pt_BR):	Módulo Perl XML::SAX::Machines
+Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl XML::SAX::Machines
+Summary(sv):	XML::SAX::Machines Perlmodul
+Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl XML::SAX::Machines
+Summary(zh_CN):	XML::SAX::Machines Perl Ä£¿é
 Name:		perl-XML-SAX-Machines
-Version:	0.36
+Version:	0.4
 Release:	1
+Epoch:		1
 License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
+%if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-XML-SAX >= 0.05
 BuildRequires:	perl(XML::SAX::Base) >= 1.02
-BuildRequires:	perl-XML-SAX-Writer >= 0.39
+# doc say 0.4100001, so maybe too much, but safer
+BuildRequires:	perl-XML-SAX-Writer >= 0.42
 BuildRequires:	rpm-perlprov >= 3.0.3-16
+%endif
 Requires:	perl-XML-SAX >= 0.05
 Requires:	perl(XML::SAX::Base) >= 1.02
-Requires:	perl-XML-SAX-Writer >= 0.39
+# as above...
+Requires:	perl-XML-SAX-Writer >= 0.42
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
