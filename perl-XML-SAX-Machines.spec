@@ -35,7 +35,7 @@ BuildRequires:	perl-XML-SAX >= 0.05
 BuildRequires:	perl(XML::SAX::Base) >= 1.02
 # doc say 0.4100001, so maybe too much, but safer
 BuildRequires:	perl-XML-SAX-Writer >= 0.42
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 %endif
 Requires:	perl-XML-SAX >= 0.05
 Requires:	perl(XML::SAX::Base) >= 1.02
