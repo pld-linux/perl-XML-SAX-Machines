@@ -66,7 +66,8 @@ z³o¿onych konstrukcji SAX bez du¿ej ilo¶ci nadmiarowego kodu.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT \
+	INSTALLSITELIB=$RPM_BUILD_ROOT%{perl_vendorlib}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
