@@ -58,7 +58,7 @@ z³o¿onych konstrukcji SAX bez du¿ej ilo¶ci nadmiarowego kodu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %{!?_without_tests:%{__make} test}
