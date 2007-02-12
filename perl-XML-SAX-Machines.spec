@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	SAX-Machines
 Summary:	XML::SAX::Machines Perl module
-Summary(cs):	Modul XML::SAX::Machines pro Perl
-Summary(da):	Perlmodul XML::SAX::Machines
-Summary(de):	XML::SAX::Machines Perl Modul
-Summary(es):	MÛdulo de Perl XML::SAX::Machines
-Summary(fr):	Module Perl XML::SAX::Machines
-Summary(it):	Modulo di Perl XML::SAX::Machines
-Summary(ja):	XML::SAX::Machines Perl •‚•∏•Â°º•Î
-Summary(ko):	XML::SAX::Machines ∆ﬁ ∏¡Ÿ
-Summary(nb):	Perlmodul XML::SAX::Machines
-Summary(pl):	Modu≥ Perla XML::SAX::Machines
-Summary(pt):	MÛdulo de Perl XML::SAX::Machines
-Summary(pt_BR):	MÛdulo Perl XML::SAX::Machines
-Summary(ru):	Ìœƒ’Ãÿ ƒÃ— Perl XML::SAX::Machines
-Summary(sv):	XML::SAX::Machines Perlmodul
-Summary(uk):	Ìœƒ’Ãÿ ƒÃ— Perl XML::SAX::Machines
-Summary(zh_CN):	XML::SAX::Machines Perl ƒ£øÈ
+Summary(cs.UTF-8):   Modul XML::SAX::Machines pro Perl
+Summary(da.UTF-8):   Perlmodul XML::SAX::Machines
+Summary(de.UTF-8):   XML::SAX::Machines Perl Modul
+Summary(es.UTF-8):   M√≥dulo de Perl XML::SAX::Machines
+Summary(fr.UTF-8):   Module Perl XML::SAX::Machines
+Summary(it.UTF-8):   Modulo di Perl XML::SAX::Machines
+Summary(ja.UTF-8):   XML::SAX::Machines Perl „É¢„Ç∏„É•„Éº„É´
+Summary(ko.UTF-8):   XML::SAX::Machines ÌéÑ Î™®Ï§Ñ
+Summary(nb.UTF-8):   Perlmodul XML::SAX::Machines
+Summary(pl.UTF-8):   Modu≈Ç Perla XML::SAX::Machines
+Summary(pt.UTF-8):   M√≥dulo de Perl XML::SAX::Machines
+Summary(pt_BR.UTF-8):   M√≥dulo Perl XML::SAX::Machines
+Summary(ru.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::SAX::Machines
+Summary(sv.UTF-8):   XML::SAX::Machines Perlmodul
+Summary(uk.UTF-8):   –ú–æ–¥—É–ª—å –¥–ª—è Perl XML::SAX::Machines
+Summary(zh_CN.UTF-8):   XML::SAX::Machines Perl Ê®°Âùó
 Name:		perl-XML-SAX-Machines
 Version:	0.41
 Release:	1
@@ -49,9 +49,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 XML::SAX::Machines is a collection of APIs that allow complex SAX
 machines to be constructed without a huge amount of extra typing.
 
-%description -l pl
-XML::SAX::Machines to zestaw API pozwalaj±cy na konstruowanie
-z≥oøonych konstrukcji SAX bez duøej ilo∂ci nadmiarowego kodu.
+%description -l pl.UTF-8
+XML::SAX::Machines to zestaw API pozwalajƒÖcy na konstruowanie
+z≈Ço≈ºonych konstrukcji SAX bez du≈ºej ilo≈õci nadmiarowego kodu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
