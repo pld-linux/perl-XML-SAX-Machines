@@ -6,22 +6,22 @@
 %define		pdir	XML
 %define		pnam	SAX-Machines
 Summary:	XML::SAX::Machines Perl module
-Summary(cs.UTF-8):   Modul XML::SAX::Machines pro Perl
-Summary(da.UTF-8):   Perlmodul XML::SAX::Machines
-Summary(de.UTF-8):   XML::SAX::Machines Perl Modul
-Summary(es.UTF-8):   Módulo de Perl XML::SAX::Machines
-Summary(fr.UTF-8):   Module Perl XML::SAX::Machines
-Summary(it.UTF-8):   Modulo di Perl XML::SAX::Machines
-Summary(ja.UTF-8):   XML::SAX::Machines Perl モジュール
-Summary(ko.UTF-8):   XML::SAX::Machines 펄 모줄
-Summary(nb.UTF-8):   Perlmodul XML::SAX::Machines
-Summary(pl.UTF-8):   Moduł Perla XML::SAX::Machines
-Summary(pt.UTF-8):   Módulo de Perl XML::SAX::Machines
-Summary(pt_BR.UTF-8):   Módulo Perl XML::SAX::Machines
-Summary(ru.UTF-8):   Модуль для Perl XML::SAX::Machines
-Summary(sv.UTF-8):   XML::SAX::Machines Perlmodul
-Summary(uk.UTF-8):   Модуль для Perl XML::SAX::Machines
-Summary(zh_CN.UTF-8):   XML::SAX::Machines Perl 模块
+Summary(cs.UTF-8):	Modul XML::SAX::Machines pro Perl
+Summary(da.UTF-8):	Perlmodul XML::SAX::Machines
+Summary(de.UTF-8):	XML::SAX::Machines Perl Modul
+Summary(es.UTF-8):	Módulo de Perl XML::SAX::Machines
+Summary(fr.UTF-8):	Module Perl XML::SAX::Machines
+Summary(it.UTF-8):	Modulo di Perl XML::SAX::Machines
+Summary(ja.UTF-8):	XML::SAX::Machines Perl モジュール
+Summary(ko.UTF-8):	XML::SAX::Machines 펄 모줄
+Summary(nb.UTF-8):	Perlmodul XML::SAX::Machines
+Summary(pl.UTF-8):	Moduł Perla XML::SAX::Machines
+Summary(pt.UTF-8):	Módulo de Perl XML::SAX::Machines
+Summary(pt_BR.UTF-8):	Módulo Perl XML::SAX::Machines
+Summary(ru.UTF-8):	Модуль для Perl XML::SAX::Machines
+Summary(sv.UTF-8):	XML::SAX::Machines Perlmodul
+Summary(uk.UTF-8):	Модуль для Perl XML::SAX::Machines
+Summary(zh_CN.UTF-8):	XML::SAX::Machines Perl 模块
 Name:		perl-XML-SAX-Machines
 Version:	0.41
 Release:	1
