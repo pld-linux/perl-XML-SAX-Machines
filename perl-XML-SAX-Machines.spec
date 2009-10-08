@@ -23,13 +23,13 @@ Summary(sv.UTF-8):	XML::SAX::Machines Perlmodul
 Summary(uk.UTF-8):	Модуль для Perl XML::SAX::Machines
 Summary(zh_CN.UTF-8):	XML::SAX::Machines Perl 模块
 Name:		perl-XML-SAX-Machines
-Version:	0.41
+Version:	0.42
 Release:	1
 Epoch:		1
 License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b91467e31690ce1a53c9d6895879ad21
+# Source0-md5:	82cce7207bd50edd1d2386eea5e2c84b
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-XML-SAX >= 0.05
@@ -75,7 +75,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc CHANGES README TODO
+%doc CHANGES README
 %{perl_vendorlib}/XML/Filter/*.pm
 %{perl_vendorlib}/XML/SAX/*.pm
 %{perl_vendorlib}/XML/SAX/Machines
