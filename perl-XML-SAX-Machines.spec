@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	SAX-Machines
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAX::Machines Perl module
 Summary(cs.UTF-8):	Modul XML::SAX::Machines pro Perl
 Summary(da.UTF-8):	Perlmodul XML::SAX::Machines
@@ -30,16 +30,17 @@ License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	82cce7207bd50edd1d2386eea5e2c84b
+URL:		http://search.cpan.org/dist/XML-SAX-Machines/
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
-BuildRequires:	perl-XML-SAX >= 0.05
 BuildRequires:	perl(XML::SAX::Base) >= 1.02
+BuildRequires:	perl-XML-SAX >= 0.05
 # doc say 0.4100001, so maybe too much, but safer
 BuildRequires:	perl-XML-SAX-Writer >= 0.42
 BuildRequires:	rpm-perlprov >= 4.1-13
 %endif
-Requires:	perl-XML-SAX >= 0.05
 Requires:	perl(XML::SAX::Base) >= 1.02
+Requires:	perl-XML-SAX >= 0.05
 # as above...
 Requires:	perl-XML-SAX-Writer >= 0.42
 BuildArch:	noarch
