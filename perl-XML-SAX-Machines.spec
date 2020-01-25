@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	SAX-Machines
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::SAX::Machines Perl module
 Summary(cs.UTF-8):	Modul XML::SAX::Machines pro Perl
 Summary(da.UTF-8):	Perlmodul XML::SAX::Machines
