@@ -23,7 +23,7 @@ Summary(uk.UTF-8):	Модуль для Perl XML::SAX::Machines
 Summary(zh_CN.UTF-8):	XML::SAX::Machines Perl 模块
 Name:		perl-XML-SAX-Machines
 Version:	0.42
-Release:	1
+Release:	2
 Epoch:		1
 License:	Artistic, GPL or BSD
 Group:		Development/Languages/Perl
